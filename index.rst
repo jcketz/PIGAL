@@ -12,8 +12,6 @@ Contents:
 
 .. toctree::
    :maxdepth: 2
-   fr/intro
-   en/intro
    intro
    tutorial
 
