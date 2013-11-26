@@ -3,24 +3,5 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to PIGAL's documentation!
+English Documentation
 =================================
-
-Contents:
-
-.. toctree::
-   :maxdepth: 2
-   fr/intro
-   en/intro
-   intro
-   tutorial
-
-
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
-
