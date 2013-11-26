@@ -6,6 +6,8 @@
 Welcome to PIGAL's documentation!
 =================================
 
+PIGAL est une application web pour l’analyse par la théorie des graphes des interactions anatomiques et fonctionnelles dans le cerveau humain
+
 Contents:
 
 .. toctree::
