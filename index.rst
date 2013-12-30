@@ -53,7 +53,6 @@ Contents:
    :maxdepth: 2
    
    tutoriel
-   fonctionnalites
 
 Introduction
 -----------------

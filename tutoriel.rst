@@ -57,6 +57,8 @@
    :width: 100% 
 .. |Fig35|  image:: images/APPstatisticslocal2.png
    :width: 100% 
+.. |FigSession|  image:: images/APPcreatesession.png
+   :width: 100% 
 
 Tutoriel d'utilisation 
 =================================
@@ -229,10 +231,30 @@ pourront les utiliser à leur convenance. |br|
 
 **Importation et utilisation dans PIGAL** |br|
 
-Une fois les données préparées dans votre fichier Zip, tout est prêt à être importé dans PIGAL. |br|
+Une fois les données préparées dans votre fichier ZIP, tout est prêt à être importé dans PIGAL. |br|
 Pour ce faire, dans l'interface de PIGAL, sélectionner l'onglet ''Dataset''. Puis l'onglet |br|
-''Several Patients''. Cliquez ensuite sur le bouton parcourir et sélectionnez votre fichier ZIP. Patientez, |br|
-un tableau va apparaître. Si ce dernier tarde à se montrer, vous pouvez recharger la page. |br|
+''Several Patients''. Sur cette page, une zone ''Create a session'' est affichée. C'est cette dernière |br|
+qui sert à importer le fichier ZIP précédemment préparé. Il vous est alors demandé de choisir un |br|
+nom de session et d'importer le fichier ZIP de votre choix. En laissant la zone de nom du fichier |br|
+zip vide, votre session de travail prendra le même nom que votre fichier ZIP. Le chargement de |br|
+la nouvelle session débute dès qu'un fichier est sélectionné sur votre ordinateur. Patientez, la |br|
+session va se créer, avec son nom et la date de sa création et un tableau va apparaître. Si ce |br|
+dernier tarde à se montrer, vous pouvez recharger la page. |br|
+
+|FigSession| 
+*Zone de création de session*
+
+
+Il est possible de passer d'une session à une autre en sélectionnant la session de travail désirée |br|
+dans le menu déroulant prévu à cet effet. La session est alors automatiquement chargée. |br|
+
+Nous attirons votre attention sur les fait que les sessions en mode déconnecté sont accessibles |br|
+à tous les autres utilisateurs et modifiables par ces derniers. Aussi nous recommandons d'utiliser |br|
+PIGAL en mode connecté de manière à protéger vos sessions et vos matrices. |br|
+
+|Fig23| 
+*Grille éditable du jeu de données importé*
+
 
 Il est dès à présent possible de modifier directement le tableau, ce qui modifiera directement |br|
 les informations de la session. Chacune des cases autres que celle de la colonne ID du tableau |br|
@@ -240,8 +262,7 @@ peut être éditée à volonté. Les cases atlas proposent un menu déroulant av
 disponibles, les cases coordinates proposent la liste des fichiers de coordonnées disponibles et les |br|
 colonnes dont le titre contiennent le mot date proposent un calendrier. |br|
 
-|Fig23| 
-*Grille éditable du jeu de données importé*
+
 
 Pour calculer et visualiser les mesures de graphe pour un sujet de cette liste. Il faut le séléctionner |br|
 avec son ''IDENTIFIER'' dans le menu déroulant et cliquer sur le bouton ''compute |br|
