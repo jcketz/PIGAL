@@ -97,10 +97,8 @@ l'évolutivité et la clarté d'utilisation souhaitée, Arnaud Messé a donc pro
 KETZINGER de contribuer à combler ce manque et de développer le projet PIGAL.
 
 
-Indices and tables
+Search
 ==================
 
-* :ref:`genindex`
-* :ref:`modindex`
 * :ref:`search`
 
